@@ -2,16 +2,13 @@
 
 // alert( 3 + 3) // we are using nodejs, not browser
 
-console.log(3 
-    +
-     3) // code readability should be high
+console.log(3 + 3); // code readability should be high
 
-console.log("Karuna")
+console.log("Karuna");
 
-
-let name = "karuna"
-let age = 18
-let isLoggedIn = false
+let name = "karuna";
+let age = 18;
+let isLoggedIn = false;
 let state;
 
 // number => 2 to power 53
@@ -22,8 +19,8 @@ let state;
 // undefined =>
 // symbol => unique
 
-
-// object 
-
+// object
+console.log(typeof "karuna");
+console.log(typeof age);
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
