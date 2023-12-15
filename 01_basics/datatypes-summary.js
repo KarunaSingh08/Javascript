@@ -51,3 +51,27 @@ console.log(typeof anotherId);
 // Object => object
 
 // JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime and can change throughtout the program as we assign different values to them.
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "karunasinghdotcom";
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "karuna@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
